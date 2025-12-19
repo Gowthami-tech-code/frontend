@@ -1,0 +1,15 @@
+.slider-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide-card img {
+  width: 100%;
+  height: 500px; 
+  object-fit: cover;
+  border-radius: 10px;
+}
+.slide-card h3 {
+  text-align: center;
+  padding: 10px 0;
+}
