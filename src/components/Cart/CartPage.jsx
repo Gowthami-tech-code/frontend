@@ -4,7 +4,7 @@ import { userContext } from '../../App.jsx';
 const Cart=()=>{
     return(
         <div>
-            <h1>Cart Page</h1>
+            <h1>Welcome to cart page</h1>
             <userContext.Consumer>
                 {(value)=><p>{value}</p>}
             </userContext.Consumer>
