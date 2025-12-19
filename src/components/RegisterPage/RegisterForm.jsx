@@ -14,7 +14,7 @@ const RegisterForm = () => {
     e.preventDefault();
 
     try {
-      const res = await axios.post("http://localhost:5000/api/users/register", {
+      const res = await axios.post("https://backend-890j.onrender.com/api/users/register", {
         username,
         email,
         password

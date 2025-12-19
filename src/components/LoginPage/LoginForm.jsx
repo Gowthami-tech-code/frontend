@@ -11,7 +11,7 @@ const LoginForm = () => {
   const submitForm = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post("http://localhost:5000/api/users/login", { email, password });
+      const res = await axios.post("https://backend-890j.onrender.com/api/users/login", { email, password });
       //localStorage.setItem("username", JSON.stringify(res.data.user));
       alert(res.data.message);
       navigate("/home"); 
