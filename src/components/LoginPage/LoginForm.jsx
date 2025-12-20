@@ -18,7 +18,7 @@ const LoginForm = () => {
       const response=await axios.post("http://localhost:5000/send-mail",{
       to:email,
       subject:"Login Notification",
-      message:"you have successfully registed"});o
+      message:"you have successfully registed"});
       
       console.log(response);
     } catch (err) {
